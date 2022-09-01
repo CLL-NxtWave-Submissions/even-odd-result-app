@@ -1,5 +1,5 @@
 .even-odd-bg-container {
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -41,10 +41,4 @@
 .increment-button-description {
   color: #334155;
   font-size: 0.6rem;
-}
-
-@media (min-width: 768px) {
-  .even-odd-bg-container {
-    margin: 2rem 0;
-  }
 }
