@@ -1,5 +1,5 @@
 .even-odd-bg-container {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,8 +14,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 0.6rem;
-  padding: 3rem;
+  border-radius: 0.8rem;
+  padding: 5rem 7rem;
 }
 
 .even-odd-header {
@@ -26,15 +26,16 @@
 
 .even-odd-result {
   color: #1e293b;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .increment-button {
   background-color: #ffffff;
   border: none;
   border-radius: 0.4rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: #334155;
+  padding: 0.5rem 2rem;
 }
 
 .increment-button-description {
