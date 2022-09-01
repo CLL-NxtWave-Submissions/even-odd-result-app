@@ -1,0 +1,49 @@
+.even-odd-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.content-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.6rem;
+  padding: 3rem;
+}
+
+.even-odd-header {
+  color: #0f172a;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.even-odd-result {
+  color: #1e293b;
+  font-size: 1rem;
+}
+
+.increment-button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  color: #334155;
+}
+
+.increment-button-description {
+  color: #334155;
+  font-size: 0.6rem;
+}
+
+@media (min-width: 768px) {
+  .even-odd-bg-container {
+    margin: 2rem 0;
+  }
+}
